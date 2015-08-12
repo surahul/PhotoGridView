@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PhotoGrid">
+        <attr name="photogrid_num_of_columns" format="integer"/>
+        <attr name="photogrid_sticky_headers" format="boolean"/>
+        <attr name="photogrid_has_section_headers" format="boolean"/>
+        <attr name="photogrid_mode" format="enum">
+            <enum name="photogrid_grid" value="0"/>
+            <enum name="photogrid_hsv" value="1"/>
+        </attr>
+        <attr name="photogrid_auto_inset" format="boolean"/>
+    </declare-styleable>
+
+</resources>
